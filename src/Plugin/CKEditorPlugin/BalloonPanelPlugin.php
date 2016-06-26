@@ -14,6 +14,7 @@ use Drupal\editor\Entity\Editor;
  * )
  */
 class BalloonPanelPlugin extends CKEditorPluginBase {
+
   /**
    * {@inheritdoc}
    */
