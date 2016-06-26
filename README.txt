@@ -32,5 +32,4 @@ Darryl Norris - https://www.drupal.org/u/darol100
 
 Credits
 =======
-
 Initial development and maintenance by Agaric.

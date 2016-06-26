@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\ckeditor_balloonpanel\Plugin\CKEditorPlugin\BalloonPanelPlugin.
- */
-
 namespace Drupal\ckeditor_balloonpanel\Plugin\CKEditorPlugin;
 
 use Drupal\ckeditor\CKEditorPluginBase;
@@ -39,4 +34,5 @@ class BalloonPanelPlugin extends CKEditorPluginBase {
   public function getButtons() {
     return [];
   }
+
 }
