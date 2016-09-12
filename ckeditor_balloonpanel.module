@@ -5,43 +5,23 @@
  */
 function ckeditor_balloonpanel_ckeditor_plugin() {
   return array(
-    'ckeditor_balloonpanel' => array(
-      'name' => 'ckeditor_balloonpanel',
+    'balloonpanel' => array(
+      'name' => 'balloonpanel',
       'desc' => t('CKEditor Balloon Panel'),
-      'path' => '',
+      'path' => libraries_get_path('balloonpanel', TRUE) . '/',
     ),
   );
 }
 
 /**
- * Defines the "balloonpanel" plugin.
- *
- * @CKEditorPlugin(
- *   id = "balloonpanel",
- *   label = @Translation("Balloon Panel Plugin"),
- * )
+ * Implements hook_libraries_info().
  */
-class BalloonPanelPlugin extends CKEditorPluginBase {
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getFile() {
-    return base_path() . 'libraries/balloonpanel/plugin.js';
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getConfig(Editor $editor) {
-    return [];
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getButtons() {
-    return [];
-  }
-
+function ckeditor_balloonpanel_libraries_info() {
+  return array(
+    'balloonpanel' => array(
+      'name' => 'CKEditor Balloon Panel',
+      'vendor url' => 'http://ckeditor.com/addon/balloonpanel',
+      'download url' => 'http://ckeditor.com/addon/balloonpanel',
+    ),
+  );
 }

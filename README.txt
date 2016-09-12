@@ -21,6 +21,10 @@ This module requires the core CKEditor module.
 2. Place the plugin in the root libraries folder (/libraries).
 3. Enable CKEditor Balloon Panel module in the Drupal admin.
 
+Dependencies
+============
+This module requires the core CKEditor module and the Libraries API module.
+
 Uninstallation
 ==============
 1. Uninstall the module from 'Administer >> Modules'.
