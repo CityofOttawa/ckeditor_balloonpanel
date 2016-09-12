@@ -1,7 +1,7 @@
-name: CKEditor Balloon Panel
-type: module
-description: "Adds the Balloon Panel plugin to CKEditor."
-package: CKEditor
-core: 8.x
-dependencies:
-  - ckeditor
+name = CKEditor Balloon Panel
+description = Adds the Balloon Panel plugin to CKEditor.
+package = CKEditor
+core = 7.x
+
+dependencies[] = ckeditor
+dependencies[] = libraries

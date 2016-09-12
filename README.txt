@@ -25,10 +25,14 @@ Uninstallation
 ==============
 1. Uninstall the module from 'Administer >> Modules'.
 
-MAINTAINERS
+Maintainers
 ===========
 Mauricio Dinarte - https://www.drupal.org/u/dinarcon
 Darryl Norris - https://www.drupal.org/u/darol100
+
+Drupal 7 Version
+================
+Dave Bagler (Bagler IT) - https://www.drupal.org/u/dave-bagler
 
 Credits
 =======

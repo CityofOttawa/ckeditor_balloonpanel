@@ -1,9 +1,17 @@
 <?php
 
-namespace Drupal\ckeditor_balloonpanel\Plugin\CKEditorPlugin;
-
-use Drupal\ckeditor\CKEditorPluginBase;
-use Drupal\editor\Entity\Editor;
+/**
+ * Implements hook_ckeditor_plugin().
+ */
+function ckeditor_balloonpanel_ckeditor_plugin() {
+  return array(
+    'ckeditor_balloonpanel' => array(
+      'name' => 'ckeditor_balloonpanel',
+      'desc' => t('CKEditor Balloon Panel'),
+      'path' => '',
+    ),
+  );
+}
 
 /**
  * Defines the "balloonpanel" plugin.
